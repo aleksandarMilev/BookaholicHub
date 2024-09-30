@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookaholicHub.Server", "Boo
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "bookaholichub.client", "bookaholichub.client\bookaholichub.client.esproj", "{7BD39841-FB98-4A71-89B0-902A09EA50D6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{3E3FB285-E4C2-435F-8C67-206E769549E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{DA917582-D340-45EE-90A2-ABC22A471F64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web", "web", "{71FA5807-8C61-4416-A8A1-424D4B14D409}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB1B570F-6808-46BD-81DA-0262657BAA4A} = {71FA5807-8C61-4416-A8A1-424D4B14D409}
+		{7BD39841-FB98-4A71-89B0-902A09EA50D6} = {3E3FB285-E4C2-435F-8C67-206E769549E6}
+		{71FA5807-8C61-4416-A8A1-424D4B14D409} = {DA917582-D340-45EE-90A2-ABC22A471F64}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E9865E11-9AF6-452C-8F7B-F679F5B4B0CE}
