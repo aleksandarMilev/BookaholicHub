@@ -1,0 +1,6 @@
+@BookaholicHub.Server_HostAddress = http://localhost:5006
+
+GET {{BookaholicHub.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookaholicHub.Server", "BookaholicHub.Server\BookaholicHub.Server.csproj", "{AB1B570F-6808-46BD-81DA-0262657BAA4A}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "bookaholichub.client", "bookaholichub.client\bookaholichub.client.esproj", "{7BD39841-FB98-4A71-89B0-902A09EA50D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB1B570F-6808-46BD-81DA-0262657BAA4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1B570F-6808-46BD-81DA-0262657BAA4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1B570F-6808-46BD-81DA-0262657BAA4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1B570F-6808-46BD-81DA-0262657BAA4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD39841-FB98-4A71-89B0-902A09EA50D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD39841-FB98-4A71-89B0-902A09EA50D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD39841-FB98-4A71-89B0-902A09EA50D6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7BD39841-FB98-4A71-89B0-902A09EA50D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD39841-FB98-4A71-89B0-902A09EA50D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD39841-FB98-4A71-89B0-902A09EA50D6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9865E11-9AF6-452C-8F7B-F679F5B4B0CE}
+	EndGlobalSection
+EndGlobal
